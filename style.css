@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: Poppins;
+    margin: 0;
+    line-height: 200%;
+}
+
+/* hero section start */
+
+.hero-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: aliceblue;
+    align-items: center;
+    justify-items: center;
+    height: 500px;
+
+}
+
+@media screen and (max-width: 480px) {
+    .hero-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: aliceblue;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+        height: 800px;
+    }
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-img img {
+    width: 100%;
+    max-width: 90%;
+    height: auto;
+}
+
+.roundbutton {
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.buttoncolour {
+    background-color: #E0246D;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
