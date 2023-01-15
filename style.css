@@ -206,3 +206,41 @@ i {
 }
 
 /* popular collection Finished */
+
+
+/* ad section start */
+.ad-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 100px 200px;
+    align-items: center;
+    gap: 50px;
+}
+
+.ad-img img {
+    width: 100%;
+    height: auto;
+}
+
+.ad-button {
+    border: none;
+    background-color: #E0246D;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 576px) {
+    .ad-section {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 100px 0px;
+        align-items: center;
+        padding: 50px;
+        text-align: center;
+    }
+}
+
+
+
+/* ad section Finished */
